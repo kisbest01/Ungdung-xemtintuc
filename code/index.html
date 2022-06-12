@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="myStyle.css" rel="stylesheet">
+        <title>Project 4</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div id="dContent">
+            <h1>My News<i id="iSearch" class="glyphicon glyphicon-search"></i></h1>
+            <input type="text" id="iFilter" name="iFilter" placeholder=" filter" size="10"></input>
+            <div id="dMain"></div>
+        </div>
+        <form id="fSearch" class="col-xs-10">
+            <label for="search">Keywords</label>
+            <input type="text" id="search" name="search">
+            <input type="button" id="bSearch" value="Search">
+            <input type="button" id="bX" value="X">
+            <br>
+            <label for="from">From</label>
+            <input type="date" id="from" name="from">
+            <label for="to">To</label>
+            <input type="date" id="to" name="to">
+        </form>
+        <script src="myScript.js"></script>
+    </body>
+</html>
